@@ -1,0 +1,10 @@
+.zz-input {
+  outline: none;
+  width: 150px;
+  padding: 10px 5px;
+  font-size: 15px;
+  &:focus {
+    border: 1px solid #3e6cff;
+    box-shadow: #3e6cff;
+  }
+}

@@ -1,0 +1,33 @@
+.todo-list-wrapper {
+  width: 600px;
+  height: 500px;
+  overflow: auto;
+  box-sizing: border-box;
+  margin: 100px auto;
+  border: 1px solid #333;
+  .todo-header {
+    line-height: 15px;
+    padding: 10px 5px;
+    input {
+      outline: none;
+      width: 150px;
+      padding: 10px 5px;
+      font-size: 15px;
+      &:focus {
+        border: 1px solid #3e6cff;
+        box-shadow: #3e6cff;
+      }
+    }
+  }
+  .todo-item {
+    padding: 15px 0;
+    width: 100%;
+    color: #666;
+    border-bottom: 1px solid #666;
+    .todo-item-info {
+      margin-left: 5px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+}

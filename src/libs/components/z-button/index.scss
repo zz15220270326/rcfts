@@ -1,0 +1,50 @@
+.zz-btn {
+  border: none;
+  background-color: #666;
+  color: #fff;
+  padding: 5px 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  // 按钮状态
+  &.btn-success {
+    background-color: #33cc94;
+    color: #fff;
+  }
+  &.btn-primary {
+    background-color: #0094ff;
+    color: #fff;
+  }
+  &.btn-warning {
+    background-color: #ff9400;
+    color: #fff;
+  }
+  &.btn-danger {
+    background-color: #dd0033;
+    color: #fff;
+  }
+  // 按钮大小
+  &.btn-small {
+    font-size: 13px;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  &.btn-large {
+    font-size: 18px;
+    padding: 5px 8px;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  // 伪类
+  &:hover {
+    opacity: .88;
+  }
+  &:disabled {
+    opacity: .2;
+    cursor: not-allowed;
+  }
+}
